@@ -34,5 +34,5 @@ echo "Access URL: $(terraform output -raw lb_dns)"
 
 4. Clean Up:
    ```bash
-    terraform destroy -auto-approve
+   terraform destroy -auto-approve
    ```
