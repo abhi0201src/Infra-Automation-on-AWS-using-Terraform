@@ -21,11 +21,10 @@ Deploys a highly available web application on AWS using:
    cd Infra-Automation-on-AWS-using-Terraform
    ```
 2. Deploy:
-
   ```bash
-  terraform init
-  terraform plan
-  terraform apply -auto-approve
+   terraform init
+   terraform plan
+   terraform apply -auto-approve
   ```
 
 3. Access website:
