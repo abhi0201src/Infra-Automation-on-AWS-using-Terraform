@@ -14,4 +14,15 @@ Deploys a highly available web application on AWS using:
 | `userdata1.sh`     | Website 1 bootstrap script      |
 | `userdata2.sh`     | Website 2 bootstrap script      |
 
-## Architecture
+## Usage
+1. Clone repository:
+   ```bash
+   git clone https://github.com/abhi0201src/Infra-Automation-on-AWS-using-Terraform.git
+   cd Infra-Automation-on-AWS-using-Terraform
+   
+2. Deploy:
+
+bash
+terraform init
+terraform apply -auto-approve
+
