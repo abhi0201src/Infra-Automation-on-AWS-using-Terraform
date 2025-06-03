@@ -19,10 +19,20 @@ Deploys a highly available web application on AWS using:
    ```bash
    git clone https://github.com/abhi0201src/Infra-Automation-on-AWS-using-Terraform.git
    cd Infra-Automation-on-AWS-using-Terraform
-   
+   ```
 2. Deploy:
 
-bash
-terraform init
-terraform apply -auto-approve
+  ```bash
+  terraform init
+  terraform plan
+  terraform apply -auto-approve
+  ```
 
+3. Access website:
+
+echo "Access URL: $(terraform output -raw lb_dns)"
+
+4. Clean Up:
+   ```bash
+    terraform destroy -auto-approve
+   ```
